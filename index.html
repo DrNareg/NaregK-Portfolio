@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NaregK Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/style.css">
+<link rel="icon" type="image/png" href="static/NKLogo.png" />
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button"><b>Nareg Koshanian</b></a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image-NK" src="static/spaceimage.jpeg" alt="Space Image" width="1600">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Me</h1><br>
+      <!--
+      <h5 class="w3-center">Computer Science Student</h5>
+      -->
+      <p class="w3-large">I'm a second-year student at Southern Oregon University, 
+        majoring in Computer Science and Mathematics. I've always loved solving 
+        puzzles and tinkering with electronics, so this field of study was the 
+        best choice for myself. Being a student and having two jobs doesn't 
+        leave me with a ton of free time but when I do, I enjoy playing video 
+        games, making music and working on my personal projects. I am currently 
+        the Delivery Manager for a local restaurant and the Teacher Assistant for 
+        SOU's statistics class.</p>
+      
+      <p class="w3-large"> This website is one of the previously mentioned side projects, 
+        it's a way for me to learn about web development through practice. 
+        Here are some of my skills: 
+        <ul>
+          <li>Python</li>
+          <li>Jupyter</li>
+          <li>Linux</li>
+          <li>Flask</li>
+          <li>Git</li>
+          <li>Docker</li>
+          <li>Web Scraping</li>
+          <li>Some C++ and Javascript</li>
+          <li>Google Cloud Platform (GCP)</li>
+          <li>Application programming interface (API's)</li>
+          <li>Most Statistics libraries (Numpy, Scipy, etc...)</li>
+        </ul>
+      </p>
+    <!--
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    -->
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- projects Section -->
+  <div class="w3-row w3-padding-64" id="projects">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Some of my projects</h1><br>
+      
+      <h4>Dad Joke Generator</h4>
+      <p class="w3-text-grey">This fun little project taught me about API's and 
+        hosting websites on the cloud, more specifically Google Cloud Platform.</p>
+        <p><a href="add link here" target="_blank"> link needed here</a></p><br>
+      
+        <h4>Lyrics Getter</h4>
+      <p class="w3-text-grey">This project helped me learn about web scraping, 
+        I created an algorithm using BeautifulSoup to retreive the lyrics for a specific song name and artist name. </p>
+        <p><a href="https://github.com/DrNareg/lyrics_getter" target="_blank">Lyrics getter Github repo</a></p><br>
+
+      <h4>Ai Morality</h4>
+      <p class="w3-text-grey">Following an amazing Ai engineering class, I wanted to look
+        deeper at ChatGPT's morality. Through API calls, I asked and stored ChatGPT's answers to 50 dilemnas.</p>
+        <p><a href="https://github.com/DrNareg/Ai_morality" target="_blank">Ai morality Github repo</a></p><br>
+
+      <h4>Will I Pass?</h4>
+      <p class="w3-text-grey">Will I Pass is a simple python script I created for 
+        my friends and I to use when finals week gets close, and we all get anxious about our grades.</p>
+        <p><a href="https://github.com/DrNareg/Will-I-Pass" target="_blank">Will I Pass Github repo</a></p><br>
+
+      <h4>Next Step</h4>
+      <p class="w3-text-grey">Since the majority of people these days have and use their 
+        phones daily, my next goal is to learn about mobile development and maybe adapt one of my previous programs into a mobile app.</p>
+
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="static/spaceLaunch.jpg" class="w3-round w3-image w3-opacity-min" alt="Space shuttle launch" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <div class="w3-large">
+    <p>Here are some ways you can get a hold of me:</p>
+    <p><b>Email:</b> nanomailbox1@gmail.com or koshanian@sou.edu</p>
+    <p><b>Phone:</b> 313-778-9869</p>
+    <p><b>Github:</b> <a href="https://github.com/DrNareg" target="_blank">https://github.com/DrNareg</a></p>
+</div>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image-NK2" src="static/short_grass.jpg" alt="Road Image" width="1600">
+</footer>
+
+</body>
+</html>
